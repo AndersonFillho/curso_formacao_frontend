@@ -177,7 +177,7 @@ for (let g = 20; g > 10; g--) {
     console.log(`O g é: ${g}`);
 
     if (g === 12) {
-        console.log("Chegamos no 12!");
+        console.log("Chegou no 12!");
         break;
     }
 }
@@ -196,13 +196,13 @@ const job = "Boxer";
 
 switch (job) {
     case "Programador":
-        console.log("Voce é um programador!");
+        console.log("Voce é um Programador!");
         break;
     case "Boxer":
         console.log("Voce é um Boxer!");
         break;
-    case "Engenheiro":
-        console.log("Voce é um engenheiro!");
+    case "Empresario":
+        console.log("Voce é um Empresario!");
         break;
     default:
         console.log("Profissão não encontrada");
